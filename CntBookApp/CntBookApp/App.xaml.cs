@@ -11,7 +11,7 @@ namespace CntBookApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ContactsPage());
         }
 
         protected override void OnStart()
